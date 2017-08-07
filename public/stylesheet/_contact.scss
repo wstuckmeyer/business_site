@@ -19,16 +19,7 @@ $brown: #704012;
 		margin-top:50px;
 		font-size:4em;
 		color:$brown;
-		label{
-			color:$brown;
-			font-size: 4em;
-			#email{
-				font-size:3em;
-				color:$brown;
-				height:40%;
-				width:40%;
-			}
-		}
+			
 }
 	
 }
@@ -43,16 +34,31 @@ $brown: #704012;
 	opacity:0.5;
 }
 
-
-
+#label{
+	color:$brown;
+	font-size: 4em;
+}
+#emailInput{
+	font-size:3em;
+	color:$brown;
+	height:40%;
+	width:40%;
+}
 
 #openModal{
-	font-size:4em;
-	width:20%;
-	height:10%;
+	margin-left:42%;
+	font-size:2em;
+	width:17%;
+	height:8%;
 }
 button{
 		background-color:$accent-brown;
 		border-radius:50px;
 }
-
+#close{
+	width:5%;
+	height:10%;
+	right:0;
+	position:absolute;
+	top:0;
+}

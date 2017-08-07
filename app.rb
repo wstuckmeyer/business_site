@@ -19,10 +19,10 @@ post '/contact' do
 	email = params[:email]
 	puts email + "LOOK AT MY EMAIL"
 
-	from = Email.new(email: 'wstuckmeyer@gmail.com')
+	from = Email.new(email: 'avo@cado.com')
 	to = Email.new(email: email)
-	subject = 'Sending with SendGrid is Fun'
-	content = Content.new(type: 'text/plain', value: 'and easy to do anywhere, even with Ruby')
+	subject = 'Welcome to Avocado Land!'
+	content = Content.new(type: 'text/plain', value: 'We\'re going to email you everyday.')
 	mail = Mail.new(from, subject, to, content)
 
 	sg = SendGrid::API.new(api_key: ENV['SENDGRID_API_KEY'])
@@ -35,8 +35,8 @@ post '/contact' do
 	erb :contact
 end
 
-get '/testimonials' do
-	erb :testimonials
+get '/pricing' do
+	erb :pricing
 end
 
 

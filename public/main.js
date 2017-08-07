@@ -3,4 +3,8 @@
      document.getElementById('blur').style.display = 'block'
      
 	}, 3000)
-  console.log('hello')
+ 
+  document.getElementById('close').addEventListener('click', function(){
+	document.getElementById('myModal').style.display = 'none'
+	document.getElementById('blur').style.display = 'none'
+});
