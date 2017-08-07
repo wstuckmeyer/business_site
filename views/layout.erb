@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="<%= url("css/styles.css")%>">
+</head>
+<body>
+	<nav id='nav'>
+		<div class='row'>
+			<div class='col-3'>
+				<img id ='cado' src='<%= url('Images/icons8-avocado_filled.png')%>'>
+			</div>
+			<div class='col-9'>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/contact">Contact</a></li>
+					<li><a href="testimonials">Pricing</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+<%= yield %>
+
+
+<script type="text/javascript" src="<%= url("scripts/main.js")%>"></script>
+</body>
+</html>
