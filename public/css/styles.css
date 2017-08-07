@@ -300,6 +300,23 @@ button {
   position: absolute;
   top: 0; }
 
+#contactInfo {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0; }
+
+.info {
+  margin-top: 0;
+  margin-bottom: 3%;
+  text-align: center;
+  font-size: 3em;
+  border-bottom-style: solid;
+  width: 30%;
+  margin-left: 35%; }
+
+#headInfo {
+  font-size: 7em; }
+
 body {
   background: #6b8c21; }
 
