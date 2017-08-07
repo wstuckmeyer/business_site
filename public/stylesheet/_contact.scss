@@ -1,0 +1,58 @@
+$accent-brown: #ddd48f;
+$brown: #704012;
+#myModal{
+	text-align: center;
+	width:40%;
+	height:40%;
+	position: fixed;
+    right:30%;
+    top:20%;
+    z-index: 1000;
+    display: none;
+    overflow: hidden;
+    background-color: $accent-brown;
+    box-shadow: 0 0 40px black;
+    overflow:scroll;
+    //animation-name: test;
+    //animation-duration: 0.2s;
+    #modalHead{
+		margin-top:50px;
+		font-size:4em;
+		color:$brown;
+		label{
+			color:$brown;
+			font-size: 4em;
+			#email{
+				font-size:3em;
+				color:$brown;
+				height:40%;
+				width:40%;
+			}
+		}
+}
+	
+}
+#blur{
+	width:100%;
+	height:100%;
+	z-index: 2;
+	background-color: black;
+	top:0;
+	display:none;
+	position:fixed;
+	opacity:0.5;
+}
+
+
+
+
+#openModal{
+	font-size:4em;
+	width:20%;
+	height:10%;
+}
+button{
+		background-color:$accent-brown;
+		border-radius:50px;
+}
+
