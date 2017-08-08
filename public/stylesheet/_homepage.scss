@@ -23,9 +23,9 @@ h1{
 #info1{
 	height:50%;
 	#left-photo{
-		margin-left: .5%;
+		margin-left: 1%;
 		background-image: url('/../Images/avo-lady.jpg');
-		height:80%;
+		height:75%;
 	}
 	#right-text{
 		border-top-style: solid;
@@ -39,4 +39,8 @@ h1{
 			font-size: 3em;
 		}
 	}
+}
+#left-photo{
+	margin-top:1%;
+	height:75%;
 }

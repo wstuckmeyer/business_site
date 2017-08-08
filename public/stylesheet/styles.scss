@@ -2,6 +2,8 @@
 @import 'navbar';
 @import 'homepage';
 @import 'contact';
+@import 'pricing';
+@import 'about';
 
 $accent-brown: #ddd48f;
 $brown: #704012;
@@ -9,35 +11,3 @@ $brown: #704012;
 body{
 	background:#6b8c21;
 }
-
-#avoField{
-	padding-top:0;
-	height:20%;
-	width:20%;
-	margin-left:40%;
-}
-#contactHead{
-	margin-left:20%;
-	text-align:center;
-	border-bottom-style:solid;
-	padding-bottom:0;
-	margin-bottom:0;
-	width:60%;
-}
-.admission{
-	text-align:center;
-	border-bottom-style:solid;
-	width:60%;
-	margin-left:20%;
-}
-.passes{
-	text-align:center;
-	border-bottom-style:solid;
-	width:60%;
-	margin-left:20%;
-}
-.price{
-		margin-top:0;
-		margin-bottom:0;
-		font-size: 3em;
-	}

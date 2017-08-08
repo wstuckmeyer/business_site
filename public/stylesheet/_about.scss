@@ -1,0 +1,29 @@
+#right-photo{
+	height:100%;
+	width:35%;
+	background-image: url('/../Images/avo-field.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+#aboutHead{
+	width:100%;
+	height:30%;
+	margin-top:0;
+}
+#aboutTitle{
+	margin-bottom:0;
+}
+	#leftText{
+		text-align: center;
+		//border-top-style: solid;
+		border-width:100%;
+		//border-bottom-style:solid;
+		height:80%;
+		width:80%;
+		p{
+			margin-left:20%;
+			margin-top:1%;
+			font-size: 3em;
+		}
+	}
